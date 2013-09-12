@@ -53,10 +53,10 @@ if($varmi == 0)
     $mail->Host = 'smtp.gmail.com';
     $mail->Port = 587;
     $mail->SMTPSecure = 'tls';
-    $mail->Username = 'sezginosymcron@gmail.com';
-    $mail->Password = '159753sezgin';
+    $mail->Username = 'gonderici@gmail.com';
+    $mail->Password = 'gonericiSifre';
     $mail->SetFrom($mail->Username, 'Sezgin');
-    $mail->AddAddress('sezgindemir@live.com', 'Sezgin');
+    $mail->AddAddress('alici@falan.com', 'Sezgin');
     $mail->CharSet = 'UTF-8';
     $mail->Subject = 'Sonuçlar açıklandı! ÖSYM';
     $mail->MsgHTML('<h1>Müjde müjde, sonuçlar açıklandı!!!</h1>');
